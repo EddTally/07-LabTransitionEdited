@@ -47,3 +47,38 @@ figure:hover figcaption {
   /* background: rgba( 255, 255, 255, .78 ); */
   opacity: .78;
 }
+
+/*Menu css */
+nav {
+  background: #aaa;
+  display: none;
+}
+nav a {
+  padding: 1em;
+  display: block;
+}
+#nav-menu {
+  padding: 1em;
+  background: #fff;
+  display: block;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+}
+#menuP{
+  box-sizing: border-box;
+  height: 3em;
+  transform: translateY(4em);
+  line-height: 1.2em;
+  padding: .25em;
+  background: #fff;
+  opacity: 0;
+  transition: all .5s;
+} 
+
+nav:hover p {
+	font-size: 2em;
+}
